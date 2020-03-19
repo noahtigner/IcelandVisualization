@@ -1,0 +1,27 @@
+[general] 
+creator=R package 'raster' 
+created= 2011-11-12 16:19:57 
+[georeference] 
+nrows= 148 
+ncols= 500 
+xmin= -24.5166666666667 
+ymin= 63.3166666666667 
+xmax= -13.4 
+ymax= 66.6083333333333 
+projection= +proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0 
+[data] 
+datatype= INT2S 
+byteorder= little 
+nbands= 1 
+bandorder= BIL 
+categorical= FALSE 
+minvalue= 0 
+maxvalue= 1611 
+nodatavalue= -9999 
+[legend] 
+legendtype=  
+values=  
+color=  
+[description] 
+layername= isl_pop 
+history=  

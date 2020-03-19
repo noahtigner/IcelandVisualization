@@ -1,0 +1,25 @@
+Video: https://youtu.be/YKv8r7G7pbc
+
+I made a visualization of Iceland. I chose Iceland because it is geographically dramatic, 
+and is also my favorite place that I have visited.
+The movie includes the topography, information on rivers, 
+waterfalls, rivers, etc, and the centers of population. Much of the data I used came as shapefiles, 
+which are 2 dimensional. To map them to 3D space, I scaled their Z axis by the height data provided by
+the Digital Elevation Model (DEM). I did the same for the Populated Areas data, which represents data as cells (a raster).
+
+In order, the movie shows:
+    - the Isorhythmic Contour Map (topgraphic map), made with isolines
+    - the Base Map, based on the Digital Elevation Model
+    - the waterways (polylines)
+    - the roads (polylines)
+    - the population centers (raster cells)
+    - some fancy transitions
+
+I used VisIt, and wrote a script in Python to automate things. I also used FFMPeg.
+
+I had considerable difficulty making this visualization. First, it was more difficult than I anticipated to 
+find relatively small datasets for the island. I needed a DEM that matched exactly with the x and y coordinated of the shapefiles and raster files.
+Mapping and scaling these together is trivial in ArcGIS but much more difficult otherwise. I lost an entire days worth of work when VisIt started crashing my computer 
+every time I ran it. The only solution was to reinstall and start fresh. I also ran into problems with the window being a blank screen and not
+displaying any data (however the screen captures would work). I also had issues with attribute changes being applied 
+to the wrong plot/layer, even with the correct settings set. Despite these issues, I am very proud of the movie I created.
