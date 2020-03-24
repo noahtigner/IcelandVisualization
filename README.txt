@@ -1,6 +1,6 @@
-A visualization of Iceland.
+A geospatial visualization of Iceland.
 
-Youtube: https://www.youtube.com/watch?v=YKv8r7G7pbc&feature=youtu.be
+Youtube: https://youtu.be/YKv8r7G7pbc
 
 Uses a Digital Elevation Model (DEM) for the topography, shapefiles for waterways and roads, and a raster dataset for the population centers.
 
